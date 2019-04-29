@@ -1,11 +1,11 @@
 # Site settings
 author: Nate Tan
-title: 
+title: Nate's Coding Journey
 header-img: img/home-bg.png
 email: nktan93@gmail.com
 copyright_name: Nate Tan
 description: > # this means to ignore newlines until "baseurl:"
-  
+  The coding journey of Nate
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  tan-nate
