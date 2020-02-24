@@ -1,14 +1,15 @@
 ---
 layout: post
 title:      "Final project"
-date:       2020-02-24 00:44:14 +0000
+date:       2020-02-23 19:44:15 -0500
 permalink:  final_project
 ---
 
 
-I'm finally done with my final class project. It was a super informative process to build a React/Rails application. Here are some resources that were really helpful with making a game that makes use of Rails Action Cable. 
+I'm finally done with my final class project. The repo can be found at  [https://github.com/tan-nate/fuddll](http://). It was a super informative process to build a React/Rails application. Here are some resources that were really helpful with making a game that makes use of Rails Action Cable. 
 
 https://medium.com/@dakota.lillie/using-action-cable-with-react-c37df065f296
+
 This was a great article with a good overview. The only problem with it is that the ActionCable Provider package is not the best. I found that I got better results with simply importing the official ActionCable package. Then I integrated it into my app as such: 
 
 ```
@@ -61,12 +62,15 @@ componentDidMount() {
 ```
 
 I found that I had to turn sessions on to get ActionCable to identify the connection as belonging to the current user. As a tutorial on turning sessions on, I found this video by Howard very useful:
+
 https://www.youtube.com/watch?time_continue=814&v=t1n54yYgRXo&feature=emb_logo
 
 This was also useful in that regard:
+
 https://pragmaticstudio.com/tutorials/rails-session-cookies-for-api-authentication
 
 Finally I needed to do some digging to figure out how to deploy my app and use ActionCable in the deployment. These articles were super helpful on those points:
+
 https://medium.com/how-i-get-it/rails-react-js-heroku-deployment-43d7469e122e
 
 https://blog.heroku.com/real_time_rails_implementing_websockets_in_rails_5_with_action_cable#deploying-our-application-to-heroku
